@@ -64,8 +64,8 @@ Hello,
 You have a pending approval request for the following ticket: ##ticket.title##
 
 Please choose an action:
-Approve: ##approval.urlapprove##
-Reject: ##approval.urlrefuse##
+Approve: ##ticket.validation.accept.url##
+Reject: ##ticket.validation.reject.url##
 
 Ticket Description:
 ##ticket.content##
@@ -73,13 +73,6 @@ Ticket Description:
 
 4. Save the changes.
 
-> **Note:** If the variables like `##approval.urlapprove##` or `##approval.urlrefuse##` do not appear in the variable list:
-> - Manually type them in as shown above.
-> - These are custom placeholders provided by the ApprovalByMail plugin and may not show up in the UI list of variables but will work if typed correctly.
-
----
-
-4. Save the changes.
 
 ---
 
