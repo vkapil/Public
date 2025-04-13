@@ -73,6 +73,14 @@ Ticket Description:
 
 4. Save the changes.
 
+> **Note:** If the variables like `##approval.urlapprove##` or `##approval.urlrefuse##` do not appear in the variable list:
+> - Manually type them in as shown above.
+> - These are custom placeholders provided by the ApprovalByMail plugin and may not show up in the UI list of variables but will work if typed correctly.
+
+---
+
+4. Save the changes.
+
 ---
 
 ## 4. Configure Notification Event
